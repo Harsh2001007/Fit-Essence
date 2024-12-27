@@ -12,11 +12,11 @@ export default function AllScreenHolder() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen
+        {/* <Stack.Screen
           name="onboarding-screen"
           component={Onboardingscreen}
           options={{headerShown: false}}
-        />
+        /> */}
         <Stack.Screen
           name="login-screen"
           component={Loginscreen}
