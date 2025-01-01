@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418091752793",
+    "project_id": "fit-essence",
+    "storage_bucket": "fit-essence.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418091752793:android:bf9c77a157b0d842b2c048",
+        "android_client_info": {
+          "package_name": "com.fitessence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTGmHtMrRxPAOONDLoTKlrrIWEcDIBbZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

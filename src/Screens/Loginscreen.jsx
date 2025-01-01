@@ -1,19 +1,9 @@
-import {
-  Dimensions,
-  ImageBackground,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-native/no-inline-styles */
+import {ImageBackground, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
-import Animated, {
-  FadeIn,
-  FadeInDown,
-  FadeInRight,
-  FadeInUp,
-} from 'react-native-reanimated';
+import Animated, {FadeInDown, FadeInRight} from 'react-native-reanimated';
 import TabButton from '../Components/Buttons/TabButton';
 
 export default function Loginscreen() {
@@ -56,7 +46,8 @@ export default function Loginscreen() {
                   height: 1.5,
                   width: '40%',
                   backgroundColor: 'white',
-                }}></View>
+                }}
+              />
               <Text style={{fontSize: 20, fontWeight: '600', color: 'white'}}>
                 or
               </Text>
@@ -65,7 +56,8 @@ export default function Loginscreen() {
                   height: 1.5,
                   width: '40%',
                   backgroundColor: 'white',
-                }}></View>
+                }}
+              />
             </View>
             <TabButton
               btnTitle={'Create a free account'}
@@ -99,7 +91,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   btnView: {
-    width: '100%',
+    width: '85%',
     gap: 20,
     alignItems: 'center',
     justifyContent: 'center',

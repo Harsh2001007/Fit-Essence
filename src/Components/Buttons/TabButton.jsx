@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   btnBody: {
     backgroundColor: '#D7D7D7',
     height: 45,
-    width: '85%',
+    width: '100%',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

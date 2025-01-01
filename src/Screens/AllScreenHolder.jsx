@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Loginscreen from '../Screens/Loginscreen.jsx';
 import Signupscreen from './Signupscreen.jsx';
 import Onboardingscreen from './Onboardingscreen.jsx';
+import EmailSignup from './EmailSignup.jsx';
 
 export default function AllScreenHolder() {
   const Stack = createStackNavigator();
@@ -17,12 +18,17 @@ export default function AllScreenHolder() {
           component={Onboardingscreen}
           options={{headerShown: false}}
         /> */}
-        <Stack.Screen
+        {/* <Stack.Screen
           name="login-screen"
           component={Loginscreen}
           options={{
             headerShown: false,
           }}
+        /> */}
+        <Stack.Screen
+          name="emailSignup-screen"
+          component={EmailSignup}
+          options={{headerShown: false}}
         />
         <Stack.Screen name="signup-screen" component={Signupscreen} />
       </Stack.Navigator>
