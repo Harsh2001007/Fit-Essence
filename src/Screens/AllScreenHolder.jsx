@@ -6,6 +6,7 @@ import Loginscreen from '../Screens/Loginscreen.jsx';
 import Signupscreen from './Signupscreen.jsx';
 import Onboardingscreen from './Onboardingscreen.jsx';
 import EmailSignup from './EmailSignup.jsx';
+import UserInfoscreen from './UserInfoscreen.jsx';
 
 export default function AllScreenHolder() {
   const Stack = createStackNavigator();
@@ -25,9 +26,14 @@ export default function AllScreenHolder() {
             headerShown: false,
           }}
         /> */}
-        <Stack.Screen
+        {/* <Stack.Screen
           name="emailSignup-screen"
           component={EmailSignup}
+          options={{headerShown: false}}
+        /> */}
+        <Stack.Screen
+          name="userInfo-screen"
+          component={UserInfoscreen}
           options={{headerShown: false}}
         />
         <Stack.Screen name="signup-screen" component={Signupscreen} />

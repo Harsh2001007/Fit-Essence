@@ -14,9 +14,6 @@ export default function EmailSignup() {
     const emailInputValue = emailRef.current.getValue();
     const passInputValue = passwordRef.current.getValue();
     const confirmPassInputValue = confirmPasswordRef.current.getValue();
-    console.log(emailInputValue);
-    console.log(passInputValue);
-    console.log(confirmPassInputValue);
 
     auth()
       .createUserWithEmailAndPassword(emailInputValue, confirmPassInputValue)
