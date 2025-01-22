@@ -11,7 +11,7 @@ import {SlideOutLeft} from 'react-native-reanimated';
 
 export default function UserInfoscreen() {
   const [bmiValue, setBmiValue] = useState('0');
-  const [bmiType, setBmiType] = useState('Normal');
+  const [bmiType, setBmiType] = useState(null);
   return (
     <View style={styles.mainContatiner}>
       <View>
