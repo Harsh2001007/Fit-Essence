@@ -6,7 +6,7 @@ export default function Signupscreen() {
   const Navigation = useNavigation();
   return (
     <View>
-      <Text>Signupscreen</Text>
+      <Text>Signup navigation screen</Text>
       <TouchableOpacity
         onPress={() => {
           Navigation.navigate('login-screen');
