@@ -12,7 +12,7 @@ export default function Signupscreen() {
           Navigation.navigate('login-screen');
         }}>
         <View>
-          <Text>Redirect</Text>
+          <Text>screen Redirect</Text>
         </View>
       </TouchableOpacity>
     </View>
