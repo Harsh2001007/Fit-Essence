@@ -1,6 +1,6 @@
 const Gradient = {
   primaryGrad: '#000000',
-  secondaryGrad: '#BE00FF',
+  secondaryGradColor: '#BE00FF',
 };
 
 export default Gradient;
